@@ -1,0 +1,10 @@
+---
+- name: create cluster
+  hosts: localhost
+  gather_facts: false
+  environment:
+    GOOGLE_CREDENTIALS: "{{ credential }}"
+
+  roles:
+    - network
+    - kubernetes

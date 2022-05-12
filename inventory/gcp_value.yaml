@@ -1,0 +1,18 @@
+---
+all:
+  vars:
+    # changes according to requirements
+    zone: us-central1-c
+    region: us-centeral1
+    project_id: <project.id>
+    gcloud_sa_path: "~/gcpserviceaccount.json"
+    gcloud_service_account: "service-account@project-id.iam.gserviceaccount.com"
+    credential: "{{lookup('env','HOME') }}/{{gcloud_sa_path}}"
+    
+
+    #Cluster information
+    cluster_name: "gkepratice"
+    initial_node_count: 1
+    disk_size_gb: 100
+    disk_type: "pd-ssd"
+    machine_type: "e2-medium"
