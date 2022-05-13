@@ -9,7 +9,7 @@ Ansible Role to provision GKE (Gcloud Kubernetes Engine).
 * GCP project with enabled billing
 * GCP Service account with attached roles for GKE admin
 * Service account Key 
-* Ansible installed in you system
+* Ansible installed in your system
 
 ## The GCP modules require both the requests and the google-auth libraries to be installed.
 ```bash
