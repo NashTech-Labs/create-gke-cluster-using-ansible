@@ -111,3 +111,5 @@ For creating cluster and node pool,Two module are being used
 ```bash
 ansible-playbook  k8s.yml -i inventory/gcp_value.yaml
 ```
+## Blog link 
+https://blog.knoldus.com/how-to-create-gke-cluster-using-ansible/
